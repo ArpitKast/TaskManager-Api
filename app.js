@@ -6,6 +6,7 @@ const {mongoose} = require('./db/mongoose');
 const bodyParser = require('body-parser')
 
 //Load in the mongoose models
+
 const {List, Task} = require('./db/models/index');
 // const {List} = require('./db/models/list.model')
 // const {Task} = require('./db/models/task.model')
